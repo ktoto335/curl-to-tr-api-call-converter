@@ -1,5 +1,5 @@
     const optionsRegex = /((-(d|X|H|b|c|f|F|i|l|k|L|o|O|s|v|w))|(--(requests|request|cookie|cookie-jar|data|fail|form|header|include|head|insecure|location|output|remote-name|silent|verbose|write-out)))\s+('|").*?\6/g;
-    const urlRegex = /https?:\/\/[\/\w\.-_,$+!*'()]+/; 
+    const urlRegex = /https?:\/\/[\/\w\.\-\_\%\$\+\!\*\(\)]+/;
     const typeRegex = /(GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|FETCH|UPDATE|CREATE|READ|LIST|SEARCH|MODIFY|DELETE|UPLOAD|DOWNLOAD|SUBSCRIBE|UNSUBSCRIBE|PING|NOTIFY|NOTIFYALL|REQUEST|SEND|RECEIVE|AUTHENTICATE|VERIFY|REGISTER|LOG|REPORT|RETRIEVE|CONFIGURE|EVALUATE|EXECUTE)/;
     const typeRegexPlus = /((-X|--request)\s+('?)(GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|FETCH|UPDATE|CREATE|READ|LIST|SEARCH|MODIFY|DELETE|UPLOAD|DOWNLOAD|SUBSCRIBE|UNSUBSCRIBE|PING|NOTIFY|NOTIFYALL|REQUEST|SEND|RECEIVE|AUTHENTICATE|VERIFY|REGISTER|LOG|REPORT|RETRIEVE|CONFIGURE|EVALUATE|EXECUTE)('?))/;
 
